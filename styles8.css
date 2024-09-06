@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: forestgreen;
+}
+
+@media (min-width: 576px){
+    body{
+        background-color: bisque;
+    }
+}
+
+@media (min-width: 720px){
+    body{
+        background-color: slategray;
+    }
+}
+
+@media (min-width: 992px){
+    body{
+        background-color: lightcoral;
+    }
+}
+
+
+@media (min-width: 1200px){
+    body{
+        background-color: burlywood;
+    }
+}
+
+
+@media (min-width: 1980px){
+    body{
+        background-color: darkred;
+    }
+}

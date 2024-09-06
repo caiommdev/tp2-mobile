@@ -1,0 +1,44 @@
+@import url('reset.css');
+@import url('layout.css');
+@import url('colors.css');
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (orientation: landscape) and (min-width: 768px) {
+    body {
+        background-color: lightyellow;
+    }
+}
+
+@media (orientation: portrait), (min-height: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media (min-width: 1024px) and (min-height: 800px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media (max-width: 480px), (max-height: 320px) {
+    body {
+        background-color: lightcoral;
+    }
+}

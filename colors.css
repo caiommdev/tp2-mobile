@@ -1,0 +1,35 @@
+header {
+    background-color: lightgray;
+}
+
+footer {
+    background-color: lightgray;
+}
+
+aside {
+    background-color: lightblue;
+}
+
+main > div {
+    background-color: lightgreen;
+}
+
+nav {
+    background-color: lightcoral;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}

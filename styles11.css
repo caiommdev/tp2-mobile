@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    max-width: 576px;
+}
+
+#img3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+#ex3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ex3 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 4rem;
+    gap: 1rem;
+}
+
+@media (min-width: 576px){
+    body{
+        max-width: 90vw;
+    }
+    
+    #ex3 {
+        flex-direction: row;
+    }
+    
+}
